@@ -1,0 +1,15 @@
+{
+  "Version": "13.1.0",
+  "DestinationType": "ImageUploader, TextUploader, FileUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://lewd.host/api/upload",
+  "Headers": {
+    "filelength": "",
+    "age": "",
+    "striptags": ""
+  },
+  "Body": "MultipartFormData",
+  "FileFormName": "files[]",
+  "URL": "$json:files[0].url$",
+  "ThumbnailURL": "$json:files[0].url$"
+}
