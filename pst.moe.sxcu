@@ -1,0 +1,15 @@
+{
+  "Version": "13.1.0",
+  "DestinationType": "TextUploader",
+  "RequestMethod": "POST",
+  "RequestURL": "https://pst.moe/paste",
+  "Body": "MultipartFormData",
+  "Arguments": {
+    "content": "$input$",
+    "redirect": "1",
+    "language": "text",
+    "expires": "never"
+  },
+  "FileFormName": "content",
+  "URL": "$responseurl$"
+}
